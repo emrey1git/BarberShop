@@ -1,0 +1,159 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    display: flex;
+    text-decoration: row;
+    height: 100vh;
+}
+#nav-container-left {
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 11px;
+    font-weight: 600;
+   
+}
+#nav-container-left div img {
+    width: 68.93px;
+    height: 55.46px;
+    margin-top: 32px;
+    margin-left: 55px;
+    margin-right: 31.07px;
+
+}
+
+.nav-contaşner-left-bottom ul {
+    list-style-type: none;
+    transform: rotate(270deg);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+
+}
+.nav-contaşner-left-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.nav-contaşner-left-bottom hr{
+    width: 0px;
+    height: 60px;
+    border: 1px solid #303030;
+    
+}
+.nav-contaşner-left-bottom ul li:first-child{
+    color: #FF6C00;
+}
+#nav-container-right {
+    background-image: url("../images/heaaderimage.jpg");
+    width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 54px;
+    margin-right: 55px;
+}
+#navbar-left ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+#navbar-right {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+#navbar-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+#navbar-right button {
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 0.09em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#title-main{
+    width: 500px;
+    height: 202px;
+    margin-top: 272px;
+    margin-left: 100px;
+    
+}
+#title-main div {
+    display: inline-flex;
+    flex-direction: row;
+    color: #9DA4BD;
+    align-items: center;
+    gap: 20px;
+
+}
+#title-main hr {
+    width: 60px;
+    height: 0px;
+    border: 1px solid #9DA4BD;
+    
+}
+#title-main h1 {
+    width: 500px;
+    font-size: 72px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.05em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+#title-main p{
+    font-size: 18px;
+    color: #9DA4BD;
+}
+
+#next-back {
+    position: absolute;
+    bottom: 40px;
+    right: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    
+
+}
+#next-back div {
+    width: 60px;
+    height: 24px;
+    
+}
+#next-back div a {
+    text-decoration: none;
+    color: white;
+}
+.next a {
+    display: flex;
+    justify-content: end;
+}
