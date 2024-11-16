@@ -86,14 +86,14 @@ header {
     font-size: 12px;
     font-weight: 600;
 }
-#navbar-right button {
+.button-comp-black {
     width: 160px;
     height: 40px;
     background-color: transparent;
     border: 1px solid #FF6C00;
     border-radius: 25px;
     font-size: 12px;
-    color: white;
+    color: black;
     letter-spacing: 0.09em;
     font-weight: 600;
     text-transform: uppercase;
@@ -156,4 +156,81 @@ header {
 .next a {
     display: flex;
     justify-content: end;
+}
+#about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 130px;
+    gap: 64px;
+}
+#about-left{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 445px;
+    /* margin-top: 130px;
+    margin-bottom: 130px; */
+}
+.about-right-top-title {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    width: 122px;
+        height: 15px;
+        color: #303030;
+        
+
+}
+.about-right-top-title hr {
+    width: 60px;
+    height: 0;
+    border: 1px solid #303030;
+}
+.about-right-top-title h6 {
+    width: 42px;
+    height: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14.98px;
+    letter-spacing: 0.1em;
+    margin: 0px;
+}
+
+#about-right h2 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49.31px;
+    letter-spacing: 0.05em;
+    width: 500px;
+    height: 98px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #303030;
+}
+.about-right-first-text {
+    width: 500px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #555555;
+}
+.about-right-second-text{
+width: 536px;
+height: 104px;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.02em;
+color: #555555;
+margin-bottom: 40px;
 }
