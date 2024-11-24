@@ -101,6 +101,9 @@ ul {
     font-weight: 600;
     text-transform: uppercase;
 }
+#navbar-right .button-comp-black {
+    color: white;
+}
 #title-main{
     width: 500px;
     height: 202px;
@@ -293,8 +296,18 @@ margin-bottom: 40px;
 #services-and-prices-prices-right{
     /* width: 858px; */
     padding: 38px;
+     width: 505px;
+    height: 180px;
+    
 }
 
+#services-and-prices-prices-left ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 #services-and-prices-prices-left ul li div {
     width: 505px;
     display: flex;
@@ -304,8 +317,9 @@ margin-bottom: 40px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #9DA4BD;
-    align-items: center;
-    gap: 20px;
+    align-items: last baseline;
+    gap: 6px;
+    width: max-content;
 }
 
 #services-and-prices-prices-left ul li div hr {
@@ -314,11 +328,19 @@ margin-bottom: 40px;
     border: 1px solid #9DA4BD1F;
     margin: 0;
 }
+
 #services-and-prices-prices {
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
     background: linear-gradient(180deg, rgb(9, 11, 19), rgb(9, 11, 19, 0.2));
+}
+#services-and-prices-prices-right ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 #services-and-prices-prices-right ul li {
     width: 505px;
@@ -329,8 +351,9 @@ margin-bottom: 40px;
         line-height: 30px;
         letter-spacing: 0.02em;
         color: #9DA4BD;
-        align-items: center;
-        gap: 20px;
+        align-items: last baseline;
+        gap: 6px;
+        width: max-content;
 }
 #services-and-prices-prices-right ul li hr {
     width: 248px;
